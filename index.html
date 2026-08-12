@@ -22,24 +22,61 @@
  </head>
   
  <body>
+    <header>
     <nav class="navbar navbar-expand-lg bg-white border-bottom fixed-top">
         <div class="container">
             <a class="navbar-brand d-flex align-itens-center" href="#inicio">
                 <img src="assets/assets/images/logo.png"  
                 alt="logo do projeto Panorama do Mercado Tech" class="logo">
             </a>
-            <buttom class="navbar-toggler" 
-            type="buttom" 
-            data-bs-toggle="colapse"
-            data-bs-target="#menuprincipal"
-            aria-controls="menuprincipal"
+            <button class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse"
+            data-bs-target="#menuPrincipal"
+            aria-controls="menuPrincipal"
             aria-expanded="false"
             aria-label="abrir menu de navegação">
             <span class="navbar-toggler-icon"></span>
-            </buttom>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#inicio" class="nav-link">
+                            inicio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#pesquisa" class="nav-link">
+                            pesquisa
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#vagas" class="nav-link">
+                            vagas
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#tecnologia" class="nav-link">
+                            tecnologia
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#competencias" class="nav-link">
+                            competências
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#analise" class="nav-link">
+                            analise
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
         </div>
     </nav>
-    <h1>Hello, world!</h1>
+    </header>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   
  </body>
